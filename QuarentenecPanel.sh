@@ -1,4 +1,5 @@
 #!/bin/bash
+# send all files that are with permissions 000 on a cPanel account to a tar.gz and remove all of them.
 
 if ( ! getopts "u:h" option); then
     echo "Usage: `basename $0` -u username";
